@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+struct Horoscope: Decodable {
+    var sunsign: String
+    var horoscope: String
+}

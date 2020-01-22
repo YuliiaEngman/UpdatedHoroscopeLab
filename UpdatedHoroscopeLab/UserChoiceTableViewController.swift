@@ -13,7 +13,7 @@ class UserChoiceTableViewController: UITableViewController {
     @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var pickerView: UIPickerView!
     
-    var chosenSign = ""
+    var chosenSign: String? = ""
     var userInfo: UserInfo?
     
 private let horoscopesSigns = ["Aries", "Taurus", "Gemini", "Cancer", "Leo", "Virgo", "Libra", "Scorpio", "Sagittarius", "Capricorn", "Aquarius", "Pisces"]
@@ -23,7 +23,8 @@ private let horoscopesSigns = ["Aries", "Taurus", "Gemini", "Cancer", "Leo", "Vi
         pickerView.dataSource = self
         pickerView.delegate = self
         
-        //textField.delegate = self
+        textField.delegate = self
+        userInfo = UserInfo(name: "")
     }
  
     @IBAction func horoscopeButtonPressed(_ sender: UIButton) {
@@ -53,8 +54,8 @@ extension UserChoiceTableViewController: UIPickerViewDelegate {
 extension UserChoiceTableViewController: UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
-    
-        userInfo?.name = textField.text ?? ""
+        
+        userInfo?.name = textField.text ?? "no user name"
         return true
     }
 }

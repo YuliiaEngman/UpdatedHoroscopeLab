@@ -162,6 +162,7 @@
                                                     <state key="normal" title="Find Your Horoscope For Today"/>
                                                     <connections>
                                                         <action selector="horoscopeButtonPressed:" destination="WEY-rH-8Kd" eventType="touchUpInside" id="tvu-T2-V97"/>
+                                                        <segue destination="Zck-Qd-2VS" kind="unwind" unwindAction="segueSunSignWithSegue:" id="SEU-Cw-3rz"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
@@ -183,9 +184,11 @@
                     <navigationItem key="navigationItem" id="fcs-hG-Txc"/>
                     <connections>
                         <outlet property="pickerView" destination="jSk-OZ-ANs" id="A9E-Lp-fI5"/>
+                        <outlet property="textField" destination="TAt-kk-2PB" id="6PW-9L-aae"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FIJ-C3-ED4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="Zck-Qd-2VS" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1927.5362318840582" y="114.50892857142857"/>
         </scene>

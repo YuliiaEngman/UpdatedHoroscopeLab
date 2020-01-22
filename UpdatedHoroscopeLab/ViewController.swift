@@ -32,6 +32,28 @@ class ViewController: UIViewController {
             }
         }
     }
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        userNameLabel.text = ""
+        userSunsignLabel.text = "Aries"
+        getHoroscope(for: "aries")
+    }
+    
+    @IBAction func segueSunSign(segue: UIStoryboardSegue) {
+        
+        guard let detailVC = segue.source as? UserChoiceTableViewController,
+            let sign = detailVC.chosenSign,
+            let name = detailVC.userInfo
+        else {
+            fatalError("failed to access UserChoiceTableViewController")
+        }
+        
+        userNameLabel.text = name.name
+        userSunsignLabel.text = sign
+        getHoroscope(for: userSunsignLabel.text?.lowercased() ?? "Gemini")
+    }
+    
     
     private func getHoroscope(for sign: String) {
         HoroscopeAPIClient.fetchHoroscope(for: sign.lowercased(), completion: { [weak self] (result) in
@@ -45,14 +67,6 @@ class ViewController: UIViewController {
             }
         })
     }
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        userNameLabel.text = ""
-        userSunsignLabel.text = "Aries"
-        getHoroscope(for: "aries")
-    }
-
-
+    
 }
 
