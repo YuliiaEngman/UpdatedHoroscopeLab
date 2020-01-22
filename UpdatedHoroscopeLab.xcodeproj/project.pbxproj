@@ -13,6 +13,7 @@
 		0FB7C62923D53FD900D606D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FB7C62723D53FD900D606D2 /* Main.storyboard */; };
 		0FB7C62B23D53FDD00D606D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FB7C62A23D53FDD00D606D2 /* Assets.xcassets */; };
 		0FB7C62E23D53FDD00D606D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FB7C62C23D53FDD00D606D2 /* LaunchScreen.storyboard */; };
+		0FCBCE9823D8D986009ABAD5 /* UserChoiceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCBCE9723D8D986009ABAD5 /* UserChoiceTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0FB7C62A23D53FDD00D606D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FB7C62D23D53FDD00D606D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0FB7C62F23D53FDD00D606D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FCBCE9723D8D986009ABAD5 /* UserChoiceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserChoiceTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				0FB7C62323D53FD900D606D2 /* SceneDelegate.swift */,
 				0FB7C62523D53FD900D606D2 /* ViewController.swift */,
 				0FB7C62723D53FD900D606D2 /* Main.storyboard */,
+				0FCBCE9723D8D986009ABAD5 /* UserChoiceTableViewController.swift */,
 				0FB7C62A23D53FDD00D606D2 /* Assets.xcassets */,
 				0FB7C62C23D53FDD00D606D2 /* LaunchScreen.storyboard */,
 				0FB7C62F23D53FDD00D606D2 /* Info.plist */,
@@ -141,6 +144,7 @@
 				0FB7C62623D53FD900D606D2 /* ViewController.swift in Sources */,
 				0FB7C62223D53FD900D606D2 /* AppDelegate.swift in Sources */,
 				0FB7C62423D53FD900D606D2 /* SceneDelegate.swift in Sources */,
+				0FCBCE9823D8D986009ABAD5 /* UserChoiceTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
