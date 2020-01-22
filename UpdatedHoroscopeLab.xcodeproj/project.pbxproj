@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0F4DD6AB23D8F2060038E4B1 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4DD6AA23D8F2060038E4B1 /* UserInfo.swift */; };
+		0F4DD6AD23D902240038E4B1 /* UserPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4DD6AC23D902240038E4B1 /* UserPreference.swift */; };
 		0FB7C62223D53FD900D606D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB7C62123D53FD900D606D2 /* AppDelegate.swift */; };
 		0FB7C62423D53FD900D606D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB7C62323D53FD900D606D2 /* SceneDelegate.swift */; };
 		0FB7C62623D53FD900D606D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB7C62523D53FD900D606D2 /* ViewController.swift */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		0F4DD6AA23D8F2060038E4B1 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		0F4DD6AC23D902240038E4B1 /* UserPreference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPreference.swift; sourceTree = "<group>"; };
 		0FB7C61E23D53FD900D606D2 /* UpdatedHoroscopeLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UpdatedHoroscopeLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FB7C62123D53FD900D606D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FB7C62323D53FD900D606D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				0FB7C62123D53FD900D606D2 /* AppDelegate.swift */,
 				0FB7C62323D53FD900D606D2 /* SceneDelegate.swift */,
 				0FB7C62523D53FD900D606D2 /* ViewController.swift */,
+				0F4DD6AC23D902240038E4B1 /* UserPreference.swift */,
 				0F4DD6AA23D8F2060038E4B1 /* UserInfo.swift */,
 				0FB7C62723D53FD900D606D2 /* Main.storyboard */,
 				0FCBCE9723D8D986009ABAD5 /* UserChoiceTableViewController.swift */,
@@ -159,6 +162,7 @@
 				0FB7C62623D53FD900D606D2 /* ViewController.swift in Sources */,
 				0FCBCE9E23D8E2B9009ABAD5 /* HoroscopeAPIClient.swift in Sources */,
 				0FCBCEA023D8E2DD009ABAD5 /* HoroscopeModel.swift in Sources */,
+				0F4DD6AD23D902240038E4B1 /* UserPreference.swift in Sources */,
 				0FB7C62223D53FD900D606D2 /* AppDelegate.swift in Sources */,
 				0FCBCE9C23D8E281009ABAD5 /* AppError.swift in Sources */,
 				0FCBCE9A23D8E262009ABAD5 /* NetworkHelper.swift in Sources */,
